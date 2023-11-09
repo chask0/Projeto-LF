@@ -2394,13 +2394,15 @@ Google map
 }
 
 .widget-posts-image {
-  float: left;
-  width: 70px;
-  margin: 7px;
+  float:inherit
+  width: 212px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .widget-posts-title {
-  float: left;
+  float: right;
+  width: 20;
   margin: 7px;
 }
 
