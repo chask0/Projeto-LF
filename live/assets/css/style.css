@@ -1239,7 +1239,7 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.9);
+  background-color: #304296;
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -2395,7 +2395,13 @@ Google map
 
 .widget-posts-image {
   float: left;
-  width: 64px;
+  width: 70px;
+  margin: 7px;
+}
+
+.widget-posts-title {
+  float: left;
+  margin: 7px;
 }
 
 .widget-posts-body {
@@ -2745,7 +2751,7 @@ Google map
 @media (max-width: 1050px) {
   /* Navbar */
   .navbar-custom {
-    letter-spacing: 1px;
+    letter-spacing: 3px;
   }
 }
 
