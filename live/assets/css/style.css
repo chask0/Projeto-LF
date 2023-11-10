@@ -1370,7 +1370,7 @@ General Styles - Owlcarousel
 --------------------------------------------------------------*/
 .home-section {
   position: relative;
-  background-color: #fff;
+  background-color: #304296  ;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -1408,7 +1408,7 @@ General Styles - Owlcarousel
 
 /* About us Page Header */
 .about-page-header:before {
-  background: rgba(2, 2, 2, 0.2);
+  background: #304296;
 }
 
 /* Service Page Header */

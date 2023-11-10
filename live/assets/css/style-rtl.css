@@ -1239,7 +1239,7 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.9);
+  background-color: #304296;
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -1255,7 +1255,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-menu {
-  background: rgba(26, 26, 26, 0.9);
+  background: #304296;
   border-radius: 0;
   border: 0;
   padding: 0;
@@ -1275,14 +1275,14 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-menu > li > a {
-  border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
+  border-bottom: 1px solid #304296 !important;
   padding: 11px 15px;
   letter-spacing: 2px;
   color: #999;
 }
 
 .navbar-custom .dropdown-menu .dropdown-menu {
-  border-right: 1px solid rgba(73, 71, 71, 0.15);
+  border-right: 1px solid #304296;
   right: 100%;
   left: auto;
   top: 0;
@@ -1291,7 +1291,7 @@ General Styles - Owlcarousel
 
 .navbar-custom .dropdown-menu.left-side .dropdown-menu {
   border: 0;
-  border-left: 1px solid rgba(73, 71, 71, 0.15);
+  border-left: 1px solid #304296;
   left: 100%;
   right: auto;
 }
@@ -1308,7 +1308,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-menu > li > a:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: #304296 !important;
 }
 
 .navbar-custom .dropdown-toggle:after {
@@ -1408,12 +1408,12 @@ General Styles - Owlcarousel
 
 /* About us Page Header */
 .about-page-header:before {
-  background: rgba(2, 2, 2, 0.2);
+  background: #304296;
 }
 
 /* Service Page Header */
 .service-page-header:before {
-  background: rgba(2, 2, 2, 0.1);
+  background: #304296;
 }
 
 /* Pricing Page Header */
