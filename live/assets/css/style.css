@@ -2390,7 +2390,7 @@ Google map
 
 /* Posts */
 .widget-posts li {
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 .widget-posts li:last-child {
@@ -2398,16 +2398,15 @@ Google map
 }
 
 .widget-posts-image {
-  float:inherit;
-  width: 212px;
+  float:right;
+  width: 250px;
   margin-left: 7px;
   margin-right: 7px;
 }
 
 .widget-posts-title {
-  float: right;
   width: 20;
-  margin: 7px;
+  margin-left: 7px;
 }
 
 .widget-posts-body {
