@@ -2392,7 +2392,7 @@ Google map
 }
 
 .widget-posts li:last-child {
-  margin: 0;
+  margin: 74px;
 }
 
 .widget-posts-image {
@@ -2408,7 +2408,7 @@ Google map
 }
 
 .widget-posts-body {
-  margin-left: 74px;
+  display:inline;
 }
 
 /* Search */
