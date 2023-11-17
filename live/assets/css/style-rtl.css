@@ -2386,7 +2386,7 @@ Google map
 
 /* Posts */
 .widget-posts li {
-  margin: 0 0 15px;
+  margin: 0 0 10px;
 }
 
 .widget-posts li:last-child {
@@ -2394,7 +2394,7 @@ Google map
 }
 
 .widget-posts-image {
-  float: right;
+  float: left;
   width: 64px;
 }
 
