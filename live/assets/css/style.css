@@ -1678,9 +1678,7 @@ Google map
   color: #aaa;
 }
 
-.team-item:hover .team-image:after {
-  background: rgba(0, 0, 0, 0.6);
-}
+
 
 .team-item:hover .team-detail {
   opacity: 1;
