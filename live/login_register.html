@@ -58,301 +58,48 @@
       <div class="page-loader">
         <div class="loader">Loading...</div>
       </div>
-      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation"> 
-        
-        <div class="container">
-          
-            <div class="nav navbar-nav navbar-right" style="margin: 25px;">
-              <li><a href="index.html"><i class="fa fa-fw">&#xF015;</i> Principal</a></li>
-              <li><a href="blog_grid_col_3.html"><i class="fa fa-fw">&#xF02D;</i> Coleções</a></li>
-              <li><a href="blog_standard_right_sidebar.html"><span class="icon-browser" aria-hidden="true"></span> Blog</a></li>
-              <li><a href="about4.html"><i class="fa fa-fw">&#xF059;</i> Sobre</a></li>
-              <!--li.dropdown.navbar-cart-->
-              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
-              <!--        span.icon-basket-->
-              <!--        |-->
-              <!--        span.cart-item-number 2-->
-              <!--    ul.dropdown-menu.cart-list(role='menu')-->
-              <!--        li-->
-              <!--            .navbar-cart-item.clearfix-->
-              <!--                .navbar-cart-img-->
-              <!--                    a(href='#')-->
-              <!--                        img(src='assets/images/shop/product-9.jpg', alt='')-->
-              <!--                .navbar-cart-title-->
-              <!--                    a(href='#') Short striped sweater-->
-              <!--                    |-->
-              <!--                    span.cart-amount 2 &times; $119.00-->
-              <!--                    br-->
-              <!--                    |-->
-              <!--                    strong.cart-amount $238.00-->
-              <!--        li-->
-              <!--            .navbar-cart-item.clearfix-->
-              <!--                .navbar-cart-img-->
-              <!--                    a(href='#')-->
-              <!--                        img(src='assets/images/shop/product-10.jpg', alt='')-->
-              <!--                .navbar-cart-title-->
-              <!--                    a(href='#') Colored jewel rings-->
-              <!--                    |-->
-              <!--                    span.cart-amount 2 &times; $119.00-->
-              <!--                    br-->
-              <!--                    |-->
-              <!--                    strong.cart-amount $238.00-->
-              <!--        li-->
-              <!--            .clearfix-->
-              <!--                .cart-sub-totle-->
-              <!--                    strong Total: $476.00-->
-              <!--        li-->
-              <!--            .clearfix-->
-              <!--                a.btn.btn-block.btn-round.btn-font-w(type='submit') Checkout-->
-              <!--li.dropdown-->
-              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown') Search-->
-              <!--    ul.dropdown-menu(role='menu')-->
-              <!--        li-->
-              <!--            .dropdown-search-->
-              <!--                form(role='form')-->
-              <!--                    input.form-control(type='text', placeholder='Search...')-->
-              <!--                    |-->
-              <!--                    button.search-btn(type='submit')-->
-              <!--                        i.fa.fa-search-->
-              
-            </div>
-          </div>
-        </div>
-      </nav>
+      
       <div class="main">
-        <section class=" home-section home-fade  home-full-height bg-dark-60 about-page-header" data-background="assets/images/noticia.png">
+        <section class="module login-page-header" data-background="assets/images/login.png">
           <div class="container">
             <div class="row">
             </div>
           </div>
         </section>
+
+
         <section class="module">
           <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <h5 class="font-alt">Quem somos nós?</h5><br/>
-                <p>Inicialmente, o Portfólio Luciano Feijão surgiu como uma iniciativa apresentada pelo supervisor do Núcleo de Tecnologia da Informação (NTI), Diego Aguiar, aos estagiários, com o objetivo de concebê-lo especificamente para o grupo Luciano Feijão. </p>
-              </div>
-              <div class="col-sm-6">
-                <h6 class="font-alt"><span class="icon-tools-2"></span> Development
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+
+                <div class="module-title font-alt mb-0">
+                  <h2>Login</h2>
                 </div>
-                <h6 class="font-alt"><span class="icon-strategy"></span> Branding
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-target"></span> Marketing
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-camera"></span> Photography
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-              </div>
+
+                <form id="login" role="form" method="post" action="../live/php/login.php">
+
+                  <div>
+                    <i class="fa fa-fw title">&#xF0E0;</i> <label style="font-family: arial; font-size: 12px;">E-mail</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Insira seu E-mail." required="required"/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div>
+                    <i class="fa fa-fw">&#xF13E;</i><label style="font-family: arial; font-size: 12px;">Senha</label>
+                    <input class="form-control" type="password" id="senha" name="senha" placeholder="Insira sua Senha." required="required"/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  
+                  <div class="text-center">
+                    <button class="btn btn-block btn-round btn-d" id="enviar" type="submit">Enviar <i class="fa fa-fw">&#xF090;</i></button>
+                  </div>
+                </form>
             </div>
-          </div>
-        </section>
-        <hr class="divider-w">
-        <section class="module" id="team">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Conheça Nosso Time</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="fadeInUp">
-                <div class="team-item">
-                  <div>
-                    <img src="assets/images/team-3.jpg" alt="Member Photo"/>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Viviane Matos</div>
-                    <div class="team-role">Art Director</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="fadeInUp">
-                <div class="team-item">
-                  <div>
-                    <img src="assets/images/team-2.jpg" alt="Member Photo"/>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Nadson Nascimento</div>
-                    <div class="team-role">Desenvolvedor Web</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="fadeInUp">
-                <div class="team-item">
-                  <div>
-                    <img src="assets/images/team-3.jpg" alt="Member Photo"/>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Débora Torres</div>
-                    <div class="team-role">Art Director</div>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="fadeInUp">
-                <div class="team-item">
-                  <div>
-                    <img src="assets/images/team-4.jpg" alt="Member Photo"/>
-                  </div>
-                  <div class="team-descr font-alt">
-                    <div class="team-name">Jonatas Lael</div>
-                    <div class="team-role">Desenvolvedor Web</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="col-sm-4"></div>
           </div>
         </section>
         
-        <section class="module" id="alt-features">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Nossas vantagens</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
-                <div class="alt-services-image align-center"><img src="assets/images/promo.png" alt="Feature Image"></div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-strategy"></span></div>
-                  <h3 class="alt-features-title font-alt">Branding</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
-                  <h3 class="alt-features-title font-alt">Development</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-target"></span></div>
-                  <h3 class="alt-features-title font-alt">Marketing</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-tools"></span></div>
-                  <h3 class="alt-features-title font-alt">Design</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-camera"></span></div>
-                  <h3 class="alt-features-title font-alt">Photography</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-mobile"></span></div>
-                  <h3 class="alt-features-title font-alt">Mobile</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
-                  <h3 class="alt-features-title font-alt">Music</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-basket"></span></div>
-                  <h3 class="alt-features-title font-alt">Shop</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="module-small bg-dark2">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title">Endereço e Contato</h5>
-                  <div class="alt-features-item mt-0">
-                    <div class="alt-features-icon"><span class="icon-map"></span></div>
-                    <h3 class="alt-features-title font-alt"></h3>Faculdade Luciano Feijão<br/> Rua José Lopes Ponte, 400<br/>Dom Expedito <br/>CEP: 62050-215
-                  </div>
-                  <div class="alt-features-item mt-xs-60">
-                    <div class="alt-features-icon"><span class="icon-megaphone"></span></div>
-                    <h3 class="alt-features-title font-alt"></h3>E-mail: estagio.nti@flucianofeijao.com.br<br/>Telefone: (88) 12345-6789
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <div class="widget">
-                  <h5 class="widget-title font-alt">Fale Conosco</h5>
-                  <form id="contactForm" role="form" method="post" action="php/contact.php">
-                    <div class="form-group">
-                      <label class="sr-only" for="name">Nome</label>
-                      <input class="form-control" type="text" id="name" name="name" placeholder="Nome" required="required" data-validation-required-message="Please enter your name."/>
-                      <p class="help-block text-danger"></p>
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only" for="email">E-mail</label>
-                      <input class="form-control" type="email" id="email" name="email" placeholder="E-mail" required="required" data-validation-required-message="Please enter your email address."/>
-                      <p class="help-block text-danger"></p>
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only" for="email">Telefone</label>
-                      <input class="form-control" type="tel" id="telefone" name="telefone" placeholder="Telefone" required="required" data-validation-required-message="Please enter your email address."/>
-                      <p class="help-block text-danger"></p>
-                    </div>
-                    <div class="form-group">
-                      <textarea class="form-control" rows="5" id="message" name="message" placeholder="Esceva sua mensagem aqui" required="required" data-validation-required-message="Please enter your message."></textarea>
-                      <p class="help-block text-danger"></p>
-                    </div>
-                    <div class="text-center">
-                      <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Enviar</button>
-                    </div>
-                  </form>
-                  
-                </div>
-              </div>
-
-              <div class="col-sm-3">
-                <div class="widget">
-                  <h5 class="widget-title">NOSSAS PLATAFORMAS</h5>
-                  <ul class="widget-posts">
-                    <li class="clearfix">
-                      <div class="widget-posts-image.rod"><a href="https://flucianofeijao.com.br/flf/"><img src="assets/images/Marca FLF 2022 nome branco.png" alt="Post Thumbnail"/></a></div>
-                      <div class="widget-posts-body.rod">
-                        <div class="widget-posts-title.rod"><a href="https://flucianofeijao.com.br/flf/"></a></div>
-                      </div>
-                    </li>
-                    <li class="clearfix">
-                      <div class="widget-posts-image.rod"><a href="https://lucianofeijao.com.br/lf/"><img src="assets/images/Logo CLF-Branca.png" alt="Post Thumbnail"/></a></div>
-                      <div class="widget-posts-body.rod">
-                        <div class="widget-posts-title"><a href="https://lucianofeijao.com.br/lf/"></a></div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="divider-d">
-        <footer class="footer bg-dark">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2023&nbsp;<a href="index.html">PORTFÓLIO LUCIANO FEIJÃO</a>, Todos os Direitos Reservados</p>
-              </div>
-              <div class="col-sm-6">
-                <div class="footer-social-links"><a href="https://www.facebook.com/flfeijao"><i class="fa fa-facebook"></i></a>
-                                                 <a href="https://twitter.com/flfeijao"><i class="fa fa-twitter"></i></a>
-                                                 <a href="https://www.instagram.com/flfeijao/"><i class="fa fa-fw">&#xF16D;</i></a>
-                                                 <a href="https://www.youtube.com/channel/UCwIMJ6LjdGeur_em-2JbQ7w"><i class="fa fa-fw">&#xF16A;</i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
