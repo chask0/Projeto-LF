@@ -2410,6 +2410,22 @@ Google map
   margin-left: 74px;
 }
 
+/* Rodapé */
+.widget-posts-image {
+  float: left;
+  width: 64px;
+}
+
+.widget-posts-title {
+  width: 20;
+  margin-left: 0px;
+  margin-top: 22px;
+}
+
+.widget-posts-body-rod {
+  margin-left: 804px;
+}
+
 /* Search */
 .search-box {
   position: relative;
