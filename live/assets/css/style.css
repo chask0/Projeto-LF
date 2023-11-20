@@ -1743,7 +1743,7 @@ Google map
 }
 
 .borderline:before {
-  position: absolute;
+  position: absolute; 
   background: #eaeaea;
   content: "";
   bottom: -7px;
@@ -2410,20 +2410,24 @@ Google map
   margin-left: 74px;
 }
 
-/* Rodapé */
-.widget-posts-image {
-  float: left;
-  width: 64px;
-}
-
-.widget-posts-title {
-  width: 20;
-  margin-left: 0px;
-  margin-top: 22px;
-}
-
 .widget-posts-body-rod {
   margin-left: 804px;
+}
+
+.widget-posts-image.rod {
+  float:inherit;
+  width: 250px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.widget-posts-title.rod {
+  width: 20;
+  margin-left: 7px;
+}
+
+.widget-posts-body.rod {
+  margin-left: 100px;
 }
 
 /* Search */
