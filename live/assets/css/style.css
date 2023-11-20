@@ -819,8 +819,8 @@ a,
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 11px;
-  height: 33px;
+  font-size: 12px;
+  height: 30px;
   border: 1px solid #EAEAEA;
   border-radius: 2px;
   transition: all 0.4s ease-in-out 0s;
@@ -833,13 +833,13 @@ a,
 /* Forms size */
 .input-lg,
 .form-horizontal .form-group-lg .form-control {
-  height: 43px;
-  font-size: 13px;
+  height: 50px;
+  font-size: 17px;
 }
 
 .input-sm, .form-horizontal .form-group-sm .form-control {
-  height: 29px;
-  font-size: 10px;
+  height: 30px;
+  font-size: 15px;
 }
 
 .rqst-form {
@@ -1743,7 +1743,7 @@ Google map
 }
 
 .borderline:before {
-  position: absolute; 
+  position: absolute;
   background: #eaeaea;
   content: "";
   bottom: -7px;
@@ -2408,10 +2408,6 @@ Google map
 
 .widget-posts-body {
   margin-left: 74px;
-}
-
-.widget-posts-body-rod {
-  margin-left: 804px;
 }
 
 .widget-posts-image.rod {
