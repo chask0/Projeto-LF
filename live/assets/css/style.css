@@ -2410,6 +2410,22 @@ Google map
   margin-left: 74px;
 }
 
+.widget-posts-image.rod {
+  float:inherit;
+  width: 250px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.widget-posts-title.rod {
+  width: 20;
+  margin-left: 7px;
+}
+
+.widget-posts-body.rod {
+  margin-left: 100px;
+}
+
 /* Search */
 .search-box {
   position: relative;
