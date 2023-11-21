@@ -849,15 +849,6 @@ a,
     padding: 5px;
 }
 
-.form-group{
-  width: 400px;
-  height: 416px;
-  border: 2px solid #4054B2;
-  border-radius: 8px;
-  padding: 50px;
-  box-sizing: inherit;
-}
-
 .rqst-form {
   margin-top: 27px;
 }
