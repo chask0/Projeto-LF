@@ -67,39 +67,49 @@
           </div>
         </section>
 
+        <section class="boxLogin container">
+          <div class="content">
 
-        <section class="module">
-          <div class="container">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-
-                <div class="module-title font-alt mb-0">
-                  <h2>Login</h2>
-                </div>
-
-                <form id="login" role="form" method="post" action="../live/php/login.php">
-
-                  <div>
-                    <i class="fa fa-fw title">&#xF0E0;</i> <label style="font-family: arial; font-size: 12px;">E-mail</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Insira seu E-mail." required="required"/>
-                    <p class="help-block text-danger"></p>
-                  </div>
-
-                  <div>
-                    <i class="fa fa-fw">&#xF13E;</i><label style="font-family: arial; font-size: 12px;">Senha</label>
-                    <input class="form-control" type="password" id="senha" name="senha" placeholder="Insira sua Senha." required="required"/>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  
-                  <div class="text-center">
-                    <button class="btn btn-block btn-round btn-d" id="enviar" type="submit">Enviar <i class="fa fa-fw">&#xF090;</i></button>
-                  </div>
-                </form>
-            </div>
-            <div class="col-sm-4"></div>
-          </div>
-        </section>
+            <div class="col-3"></div>
+                
+            <div class="col-6">
+              <div class="box-formulario" style="margin: 60px;">        
         
+                <div class="formulario">
+                    
+                    <div class="title-form">
+                      <h1><i class="icon icon-comments-o"></i>Login</h1>
+                    </div>
+        
+                    <form class="" action="login.php" method="post">
+        
+                        <span>
+                            <input type="text" class="input-slide" id="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
+                            <label for="email"> <i class="fa fa-fw">&#xF0E0;</i> </label>
+                        </span>
+        
+                        <span>
+                            <input type="password" class="input-slide" id="senha" name="aenha" placeholder="Senha" autocomplete="off" required=""/>
+                            <label for="senha"> <i class="fa fa-fw">&#xF084;</i> </label>
+                        </span>
+        
+                        <div class="box-btn">
+                             
+                            <button type="submit" class="btn-envia zoom-shadow">
+                                <i class="icon icon-export"> Enviar</i>
+                            </button>
+        
+                        </div>
+        
+                    </form>
+        
+                </div>
+          </div>
+              <div class="col-3"></div>
+
+           </div>
+           </section><!--Login-->
+
       </div>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
