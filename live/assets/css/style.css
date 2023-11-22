@@ -1048,7 +1048,7 @@ blockquote {
 }
 
 .box-formulario {
-    width: 95%;
+    width: 90%;
     align-items:center;
     display:flex;
     flex-direction: row;
@@ -1111,7 +1111,7 @@ blockquote {
   top: 0;
   left: 0;
   bottom: 0;
-  padding: 7px 12px;
+  padding: 7px 10px;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1120,7 +1120,7 @@ blockquote {
   color: #d2d2d2;
   text-align: left;
   transition: all .3s ease-in-out, color .3s ease-out;
-  border-top-left-radius: 3px;
+  border-top-left-radius: 2px;
   border-bottom-left-radius: 3px;
   overflow: hidden;
 
